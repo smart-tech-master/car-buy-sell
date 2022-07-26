@@ -1,0 +1,41 @@
+$icon-arrow-right = "\ea01"
+$icon-check = "\ea02"
+$icon-long-arrow-right = "\ea03"
+$icon-search = "\ea04"
+
+@font-face
+  font-family: "kcicons"
+  src: url("../font/kcicons.eot")
+  src: url("../font/kcicons.eot?i88y63#iefix") format("embedded-opentype"), url("../font/kcicons.woff2?i88y63") format("woff2"), url("../font/kcicons.woff?i88y63") format("woff"), url("../font/kcicons.ttf?i88y63") format("truetype"), url("../font/kcicons.svg?i88y63#kcicons") format("svg")
+  font-style: normal
+  font-weight: 400
+
+$icon
+  display: inline-block
+  font-family: "kcicons" !important
+  font-style: normal !important
+  font-weight: normal !important
+  font-variant: normal !important
+  text-transform: none !important
+  speak: none
+  line-height: 1
+  vertical-align: -.125em
+  text-rendering: auto
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.icon
+  @extend $icon
+
+.icon-arrow-right::before
+  content: "\ea01"
+
+.icon-check::before
+  content: "\ea02"
+
+.icon-long-arrow-right::before
+  content: "\ea03"
+
+.icon-search::before
+  content: "\ea04"
+

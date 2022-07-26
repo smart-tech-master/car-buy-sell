@@ -1,0 +1,473 @@
+# <!=Copyright (C) 2022 WPClever
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: WPCkid 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/wpckid\n"
+"POT-Creation-Date: 2022-07-15 09:17:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.5\n"
+
+#: wpckid/404.php:17
+msgid "404"
+msgstr ""
+
+#: wpckid/404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: wpckid/404.php:22
+msgid "Go to Homepage"
+msgstr ""
+
+#: wpckid/comments.php:21
+msgid "Post Comments"
+msgstr ""
+
+#: wpckid/comments.php:41
+msgid "Comment Navigation Above"
+msgstr ""
+
+#: wpckid/comments.php:42 wpckid/comments.php:64
+msgid "Comment navigation"
+msgstr ""
+
+#: wpckid/comments.php:43 wpckid/comments.php:65
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: wpckid/comments.php:44 wpckid/comments.php:66
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: wpckid/comments.php:63
+msgid "Comment Navigation Below"
+msgstr ""
+
+#: wpckid/comments.php:75
+msgid "Comments are closed."
+msgstr ""
+
+#: wpckid/comments.php:85
+msgid "Submit now"
+msgstr ""
+
+#: wpckid/comments.php:87
+msgid "Write a Reply or Comment"
+msgstr ""
+
+#: wpckid/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: wpckid/content-none.php:23
+#. translators: 1: URL
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: wpckid/content-none.php:29
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: wpckid/content-none.php:34
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:96
+msgid "Primary Menu"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:97
+msgid "Handheld Menu"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:202
+msgid "Small"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:207
+msgid "Normal"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:212
+msgid "Medium"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:217
+msgid "Large"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:222
+msgid "Huge"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:247
+msgid "Sidebar"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:253
+msgid "Sidebar Shop"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:268
+#. translators: 1: column number
+msgid "Footer Column %1$d"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:271
+#. translators: 1: column number
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:274
+#. translators: 1: row number, 2: column number
+msgid "Footer Row %1$d - Column %2$d"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:277
+#. translators: 1: column number, 2: row number
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:349
+msgid "Expand child menu"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:350
+msgid "Collapse child menu"
+msgstr ""
+
+#: wpckid/inc/class-wpckid.php:474
+msgid "Post Navigation"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:133
+msgid "Background"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:137
+msgid "Header"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:181
+msgid "Typography"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:202
+msgid "Primary color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:226
+msgid "Secondary color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:250
+#: wpckid/inc/customizer/class-wpckid-customizer.php:524
+msgid "Heading color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:274
+#: wpckid/inc/customizer/class-wpckid-customizer.php:416
+#: wpckid/inc/customizer/class-wpckid-customizer.php:548
+#: wpckid/inc/customizer/class-wpckid-customizer.php:701
+msgid "Text color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:298
+msgid "Link / accent color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:319
+msgid "Link / accent color hover"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:343
+msgid "Hero heading color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:367
+msgid "Hero text color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:392
+#: wpckid/inc/customizer/class-wpckid-customizer.php:500
+#: wpckid/inc/customizer/class-wpckid-customizer.php:653
+msgid "Background color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:440
+#: wpckid/inc/customizer/class-wpckid-customizer.php:572
+msgid "Link color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:464
+msgid "Link color hover"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:478
+msgid "Footer"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:480
+msgid "Customize the look & feel of your website footer."
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:596
+msgid "Footer Link Hover color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:610
+msgid "Built with WPCkid & WooCommerce"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:618
+msgid "Copyright"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:631
+msgid "Buttons"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:633
+msgid "Customize the look & feel of your website buttons."
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:677
+msgid "Background color hover"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:725
+msgid "Border color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:749
+msgid "Alternate button background color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:773
+msgid "Alternate button text color"
+msgstr ""
+
+#: wpckid/inc/customizer/class-wpckid-customizer.php:787
+msgid "Layout"
+msgstr ""
+
+#: wpckid/inc/woocommerce/class-wpckid-woocommerce.php:185
+msgid "breadcrumbs"
+msgstr ""
+
+#: wpckid/inc/woocommerce/wpckid-woocommerce-template-functions.php:83
+msgid "View your shopping cart"
+msgstr ""
+
+#: wpckid/inc/woocommerce/wpckid-woocommerce-template-functions.php:358
+msgid "Out of stock"
+msgstr ""
+
+#: wpckid/inc/woocommerce/wpckid-woocommerce-template-functions.php:396
+msgid "Sale"
+msgstr ""
+
+#: wpckid/inc/woocommerce/wpckid-woocommerce-template-functions.php:428
+msgid "Grid View"
+msgstr ""
+
+#: wpckid/inc/woocommerce/wpckid-woocommerce-template-functions.php:428
+msgid "List View"
+msgstr ""
+
+#: wpckid/inc/wpckid-functions.php:235
+#. translators: %s: post title
+msgid "Read More %s"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:64
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:87
+msgid "Edit"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:220
+msgid "Primary Navigation"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:243
+msgid "Menu"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:259
+msgid "Handheld Navigation"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:325
+msgid "Category: "
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:327
+msgid "Blog"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:329
+msgid "Tag: "
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:331
+msgid "Author: "
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:333
+msgid "Year: "
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:335
+msgid "Month: "
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:337
+msgid "Day: "
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:340
+msgid "Shop Product"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:342
+msgid "Archives: %s"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:345
+msgid "Search Results for: \"%s\""
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:371
+msgid "Skip to navigation"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:373
+msgid "Skip to content"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:410
+#: wpckid/inc/wpckid-template-functions.php:478
+msgid "Pages:"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:509
+#. translators: %s: post date
+msgid "Posted on"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:512
+#: wpckid/inc/wpckid-template-functions.php:558
+#: wpckid/inc/wpckid-template-functions.php:561
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:515
+#: wpckid/inc/wpckid-template-functions.php:567
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpckid/inc/wpckid-template-functions.php:542
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:573
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpckid/inc/wpckid-template-functions.php:605
+msgid "Next post:"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:606
+msgid "Previous post:"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "WPCkid"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wpclever.net/downloads/wpckid/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Turn your online store into an adorable, fantastic world for selling stuff "
+"like clothing, toys, accessories etc. for baby angels. WPCkid shows "
+"dedication and affection in every corner of the design combining with "
+"intuitive convincing WPC Smart plugin features integrated into the shop. "
+"Super fast, lightspeed, and user-friendly design of WPCkid will help you "
+"build an online baby and kid shop in just a few steps. Users can enjoy the "
+"widely favorite combos of Smart Quick View, Smart Compare, and Smart "
+"Wishlist floating buttons and combine with other 40+ free plugins from "
+"WPClever on the WordPress repository. Live demo: "
+"https://demo.wpclever.net/wpckid/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPClever"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpclever.net/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr ""
+
+#: wpckid/comments.php:31
+#. translators: 1: number of comments, 2: post title
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpckid/inc/wpckid-template-functions.php:333
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:335
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:337
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:591
+msgctxt "Next post"
+msgid "Next"
+msgstr ""
+
+#: wpckid/inc/wpckid-template-functions.php:592
+msgctxt "Previous post"
+msgid "Previous"
+msgstr ""

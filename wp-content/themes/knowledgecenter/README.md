@@ -1,0 +1,2 @@
+# knowledgecenter
+WordPress Theme knowledgecenter

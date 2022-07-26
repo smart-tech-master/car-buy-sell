@@ -1,0 +1,20 @@
+@import "required"
+@import "background-elements"
+@import "menu"
+@import "pagination"
+@import "other"
+
+
+.level-right li
+  align-items: center
+  display: flex
+  flex-basis: auto
+  flex-grow: 0
+  flex-shrink: 0
+  justify-content: center
+  &:not(:last-child)
+    @media screen and (min-width: 769px)
+      margin-right: 0.75rem
+
+.comment-list .comment-number
+  display: none

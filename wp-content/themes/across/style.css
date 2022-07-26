@@ -1,0 +1,300 @@
+/*
+Theme Name: Across
+Theme URI: https://www.candidthemes.com/themes/across/
+Author: candidthemes
+Author URI: http://www.candidthemes.com/
+Description: Across is a free blog theme. It is the child theme of Fairy. It is masonry layout WordPress blog theme with tons of theme options. It has amazing slider, breadcrumb from Yoast SEO, NavXT and Rank Math, post tags options and many more. It is the enhanced over Fairy theme. Across also comes with added custom widgets for author, featured posts and social icons. It has top level menu, social icons, slider, promotional banner, sidebar option, Mailchimp subscription, and many more other features. In addition, it has copyright text, go to the top, footer widgets, blog page options, related posts, sticky sidebar, etc. This theme is lightweight and easy to use theme for travel blog, food blog, technology blog and fashion blog. You can also use this theme for news and magazine sites too. Furthermore, it comes with demo data to make the site like the demo, detailed documentation including video and text, free support via chat and forum. It is developed by the experts WordPress developers so that you will never look for alternatives after using this theme. Try this awesome and carefully crafted theme today. Demo: https://fairy.candidthemes.com/
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: across
+Requires PHP: 5.2
+Tested up to: 5.9
+Template: fairy
+Tags: two-columns, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, theme-options, threaded-comments, translation-ready, rtl-language-support, footer-widgets, custom-header, three-columns, one-column, left-sidebar, news, blog
+*/
+body {
+	background: #fff;
+	font-size: 1.1em;
+}
+.card-blog-post{
+	box-shadow: none;
+}
+.fairy-content-area.fairy-two-column > *:not(.sticky) > .card-blog-post, .fairy-content-area.fairy-three-column > *:not(.sticky) > .card-blog-post, .fairy-content-area.fairy-alternate > *:not(.sticky) > .card-blog-post{
+	padding: 0;
+}
+body:not(.single):not(.page) .entry-content > p:last-child{
+	margin-bottom: 0;
+}
+.category-label-group.bg-label a{
+	font-size: 12px;
+	padding: 0.2em 0.7em;
+	border-radius: 3px;
+}
+.card-blog-post .category-label-group.bg-label a:hover,
+.card-bg-image .card_body .category-label-group.bg-label a:hover{
+color: #fff;
+}
+.fairy-featured-post-list .card-bg-image{
+	height: 280px !important;
+	margin-top: 20px;
+}
+.fairy-featured-post-list .card-bg-image:first-child{
+	margin-top: 0;
+}
+.fairy-featured-post-list .card-bg-image img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+.fairy-featured-post-list .card_title a{
+	color: #fff;
+}
+#primary .card-blog-post {
+	padding: 0;
+}
+#primary .sticky .card-blog-post{
+	padding: 20px;
+}
+.site-info a:hover{
+	color: rgba(255, 255, 255, 0.6);
+}
+.card-promo .entry-meta * {
+	font-size: 14px;
+}
+.card-promo .entry-meta a{
+	color: #37373f
+}
+.card-promo .entry-meta a:hover{
+	color: #d10014;
+}
+.ajax-pagination .show-more{
+	font-size: 16px;
+	padding: 0.7em 2.5em;
+	-webkit-transition: 400ms linear;
+	-moz-transition: 400ms linear;
+	-ms-transition: 400ms linear;
+	-o-transition: 400ms linear;
+	transition: 400ms linear;
+}
+.ajax-pagination{
+	clear: both;
+}
+.entry-content + a.btn{
+	margin-top: 20px;
+}
+.card-blog-post, .widget-area .widget{
+	background-color: transparent;
+}
+
+/* Across theme CSS */
+
+.site-title {
+	font-size: 3em;
+}
+
+.category-label-group.bg-label a, 
+.ajax-pagination .show-more,
+.footer-go-to-top, button, 
+.site-header-left-logo .site-header-top .topbar-flex-grid .search-toggle, .site-header-v2 .site-header-topbar .topbar-flex-grid .search-toggle,
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea, input[type="submit"] {
+	border-radius: 0;
+}
+
+.category-label-group {
+	margin-bottom: 1em;
+}
+
+.fairy-content-area.fairy-two-column > * > .card-blog-post > .card_media,
+.fairy-content-area.fairy-three-column > * > .card-blog-post > .card_media,
+.fairy-content-area.fairy-alternate > * > .card-blog-post > .card_media {
+  margin-bottom: 25px;
+}
+
+.fairy-menu-social li a, .social-menu li a {
+	border-radius: 0;
+}
+
+/* Hero Slider CSS */
+
+.hero-slider-section {
+	padding: 2.5em 0 1em;
+	background: #f9f9f9;
+}
+
+.hero-style-carousel .slick-list {
+	height: auto !important;
+}
+
+.hero-style-carousel .slick-slide {
+	margin: 0 10px;
+}
+
+.hero-style-carousel .card-bg-image .card_body {
+	position: relative;
+	padding: 25px 20px;
+	color: #000;
+}
+
+.hero-style-carousel .card-bg-image .card_body * {
+	color: #000;
+}
+
+.hero-style-carousel .card-bg-image .card_body .cat-links a {
+	color: #fff;
+}
+
+.hero-style-carousel .card-bg-image:after {
+	background-image: none;
+	content: none;
+}
+
+.hero-style-carousel .post-thumb {
+	position: relative;
+}
+
+.hero-style-carousel .post-thumb:after {
+	content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 120deg, rgb(176 165 79 / 54%), rgb(0 0 0 / 0%) );
+}
+
+.hero-style-carousel .card-bg-image .card_body .card_title {
+	font-size: 26px;
+}
+
+.hero-style-carousel .card-bg-image .card_body .entry-meta {
+	font-size: 14px;
+}
+
+.hero-style-carousel .slick-prev:before, .hero-style-carousel .slick-next:before {
+	color: #404040;
+	font-size: 26px;
+}
+
+.hero-style-carousel .slick-arrow {
+	height: 40px;
+    width: 60px;
+    background: #ff7e00;
+}
+
+.hero-style-carousel .slick-arrow:hover,
+.hero-style-carousel .slick-arrow:focus {
+    background: #000;
+}
+
+.hero-style-carousel .slick-arrow:before {
+	font-family: "Fontawesome";
+	color: #fff;
+	font-size: 18px;
+}
+
+.hero-style-carousel .slick-prev:before {
+	content: '\f177';
+}
+
+.hero-style-carousel .slick-next:before {
+	content: '\f178';
+}
+
+.widget-area .widget {
+	box-shadow: 1px 1px 5px rgb(0 0 0 / 14%);
+}
+
+@media screen and (max-width: 991px) {
+	.fairy-content-area {
+		margin: 0;
+	}
+
+	.site-branding {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.site-title {
+		font-size: 2em;
+	}
+	#primary,
+	.widget-area .widget{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#primary .post-navigation{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.fairy-breadcrumb-wrapper .breadcrumb{
+		display: none;
+	}
+	.fairy-breadcrumb-wrapper{
+		margin-bottom: 20px;
+	}
+	#primary .related-post div[class*="col-"]{
+		padding-top: 20px;
+	}
+	#primary .related-post div[class*="col-"]:first-child{
+		padding-top: 0;
+	}
+	.hero-style-carousel .slick-arrow {
+		height: 30px;
+    	width: 40px;
+	}
+	.hero-style-carousel .slick-arrow:before {
+		font-size: 16px;
+	}
+	.hero-style-carousel .card-bg-image .card_body .card_title {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.site-header-v2 .custom-logo-link img {
+		margin-left: 0;
+		max-width: 200px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.row.row-full-width .card-blog-post.card-full-width .card_media {
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+
+	.fairy-content-area.fairy-masonry > * {
+		padding: 0 20px 30px;
+	}
+
+	.fairy-content-area.fairy-masonry > article{
+		padding-bottom: 80px;
+	}
+
+	.card-blog-post.card-full-width .card_media + .card_body {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.sec-spacing {
+		padding: 2.5em 0;
+	}	
+
+	.card-blog-post .entry-content {
+		margin-top: 25px;
+	}
+
+}
+
+@media screen and (min-width: 1300px) {
+	.hero-slider-section .slick-prev {
+		left: -25px;
+	}
+
+	.hero-slider-section .slick-next {
+		right: -25px;
+	}
+}

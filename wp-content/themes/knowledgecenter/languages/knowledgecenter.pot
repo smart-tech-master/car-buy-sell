@@ -1,0 +1,518 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: KnowledgeCenter\n"
+"POT-Creation-Date: 2021-11-23 15:17+0200\n"
+"PO-Revision-Date: 2021-03-29 12:14+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid "Back to Home"
+msgstr ""
+
+#. translators: %s: Asterisk symbol (*).
+#: comments.php:32
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#. translators: 1: Link to author profile 2: Author 3: Link for logout
+#: comments.php:38
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:39
+msgid "Add Comment"
+msgstr ""
+
+#: comments.php:44
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:46 inc/customizer.php:85 inc/customizer.php:214
+msgid "Name"
+msgstr ""
+
+#: comments.php:48
+msgid "Email"
+msgstr ""
+
+#: comments.php:50
+msgid "Website"
+msgstr ""
+
+#: comments.php:53
+msgid "Save my name and email in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:80 inc/template-functions.php:112
+msgid "Previous"
+msgstr ""
+
+#: comments.php:81
+msgid "Next page"
+msgstr ""
+
+#: comments.php:85 inc/template-functions.php:116
+msgid "Posts navigation"
+msgstr ""
+
+#: comments.php:97
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:51
+msgid "First Menu"
+msgstr ""
+
+#: functions.php:52
+msgid "Second Menu"
+msgstr ""
+
+#: functions.php:53
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:115
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:47 header.php:48 inc/template-functions.php:174
+#: inc/template-functions.php:204
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer-functions.php:24 inc/customizer.php:65
+msgid "Browse categories"
+msgstr ""
+
+#: inc/customizer-functions.php:53 inc/customizer.php:148
+msgid "Y"
+msgstr ""
+
+#: inc/customizer-info.php:19 inc/theme-info.php:20
+msgid "Theme Info"
+msgstr ""
+
+#: inc/customizer-info.php:62 inc/theme-info.php:47
+msgid "Theme Links"
+msgstr ""
+
+#: inc/customizer-info.php:66 inc/theme-info.php:49
+msgid "Theme Page"
+msgstr ""
+
+#: inc/customizer-info.php:71 inc/theme-info.php:51
+msgid "Theme Demo"
+msgstr ""
+
+#: inc/customizer-info.php:76 inc/theme-info.php:53
+msgid "Theme Demo PRO version"
+msgstr ""
+
+#: inc/customizer-info.php:81 inc/theme-info.php:55 inc/theme-info.php:72
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/customizer-info.php:86 inc/theme-info.php:57
+msgid "https://wordpress.org/support/theme/knowledgecenter/reviews/"
+msgstr ""
+
+#: inc/customizer-info.php:87 inc/theme-info.php:58
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/customizer-info.php:105 inc/theme-info.php:120
+msgid "Pro Version Add-on"
+msgstr ""
+
+#: inc/customizer-info.php:108
+#, php-format
+msgid ""
+"Purchase the %s Pro Add-on to get additional features and advanced "
+"customization options."
+msgstr ""
+
+#: inc/customizer-info.php:113 inc/theme-info.php:128
+#, php-format
+msgid "Learn more about %s Pro"
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Main theme settings."
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Home page"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid "Home Title"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Enter the home title."
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "Home Sub Title"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Enter the home sub title."
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Home Category Title"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Enter the home categories title."
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Categories Order by:"
+msgstr ""
+
+#: inc/customizer.php:86 inc/customizer.php:215
+msgid "ID"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Categories Order:"
+msgstr ""
+
+#: inc/customizer.php:99 inc/customizer.php:227
+msgid "ASC"
+msgstr ""
+
+#: inc/customizer.php:100 inc/customizer.php:228
+msgid "DESC"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Exclude Categories:"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid ""
+"Exclude categories. A comma-separated string of category ids to exclude "
+"along with all of their descendant categories."
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Include Categories:"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Include categories. A comma-separated string of category ids."
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Footer Title"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "All right reserved."
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Enter custom copyright text."
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Navigation menu"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Remove Menu space"
+msgstr ""
+
+#: inc/customizer.php:188
+msgid "Remove Menu shadow"
+msgstr ""
+
+#: inc/customizer.php:201
+msgid "Fixed Menu"
+msgstr ""
+
+#: inc/customizer.php:284 inc/template-tags.php:61
+msgid "White"
+msgstr ""
+
+#: inc/customizer.php:285 inc/template-tags.php:64
+msgid "Black"
+msgstr ""
+
+#: inc/customizer.php:286 inc/template-tags.php:62
+msgid "Light"
+msgstr ""
+
+#: inc/customizer.php:287 inc/template-tags.php:63
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer.php:288 inc/template-tags.php:57
+msgid "Blue"
+msgstr ""
+
+#: inc/customizer.php:289 inc/template-tags.php:58
+msgid "Green"
+msgstr ""
+
+#: inc/customizer.php:290 inc/template-tags.php:59
+msgid "Yellow"
+msgstr ""
+
+#: inc/customizer.php:291 inc/template-tags.php:60
+msgid "Red"
+msgstr ""
+
+#: inc/customizer.php:292 inc/template-tags.php:56
+msgid "Primary"
+msgstr ""
+
+#: inc/customizer.php:293
+msgid "Transparent"
+msgstr ""
+
+#: inc/customizer.php:294
+msgid "Green Light"
+msgstr ""
+
+#: inc/customizer.php:295
+msgid "Green Dark"
+msgstr ""
+
+#: inc/customizer.php:296
+msgid "Yellow Light"
+msgstr ""
+
+#: inc/customizer.php:297
+msgid "Yellow Dark"
+msgstr ""
+
+#: inc/customizer.php:298
+msgid "Red Light"
+msgstr ""
+
+#: inc/customizer.php:299
+msgid "Red Dark"
+msgstr ""
+
+#: inc/customizer.php:300
+msgid "Primary Light"
+msgstr ""
+
+#: inc/customizer.php:301
+msgid "Primary Dark"
+msgstr ""
+
+#: inc/template-functions.php:113
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:38
+msgid "Item Appearance"
+msgstr ""
+
+#: inc/template-tags.php:41 inc/template-tags.php:55
+msgid "Default"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "Button"
+msgstr ""
+
+#: inc/template-tags.php:43
+msgid "Divider"
+msgstr ""
+
+#: inc/template-tags.php:44
+msgid "Dropdown right"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Button Color"
+msgstr ""
+
+#: inc/template-tags.php:74
+msgid "Outlined"
+msgstr ""
+
+#: inc/theme-info.php:19 inc/theme-info.php:41
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: inc/theme-info.php:65
+#, php-format
+msgid "Getting Started with %s"
+msgstr ""
+
+#: inc/theme-info.php:75
+msgid ""
+"You need help to setup and configure this theme? We got you covered with an "
+"extensive theme documentation on our website."
+msgstr ""
+
+#: inc/theme-info.php:80
+#, php-format
+msgid "View %s Documentation"
+msgstr ""
+
+#: inc/theme-info.php:86
+msgid "Theme Options"
+msgstr ""
+
+#: inc/theme-info.php:89
+#, php-format
+msgid ""
+"%s makes use of the Customizer for all theme settings. Click on \"Customize "
+"Theme\" to open the Customizer now."
+msgstr ""
+
+#: inc/theme-info.php:93
+msgid "Customize Theme"
+msgstr ""
+
+#: inc/theme-info.php:113
+msgid "Get more features"
+msgstr ""
+
+#: inc/theme-info.php:123
+#, php-format
+msgid ""
+"Purchase the %s Pro Add-on and get additional features and advanced "
+"customization options."
+msgstr ""
+
+#: inc/theme-info.php:145
+#, php-format
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr ""
+
+#: inc/theme-info.php:148
+msgid "Review knowledgecenter"
+msgstr ""
+
+#: inc/theme-info.php:148
+msgid "rate it"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:16 template-parts/template-home-page.php:28
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:18 template-parts/template-home-page.php:31
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:32 template-parts/content-post.php:32
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/template-home-page.php:76
+msgid "Browse all articles"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "KnowledgeCenter"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wow-company.com/knowledgecenter/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress Theme for easily create a knowledge base, help desk, support, wiki "
+"or site with products documentations. KnowledgeCenter WordPress Theme has a "
+"minimalistic, responsive and mobile-friendly design. Simple, lightweight and "
+"fast loading WordPress Theme for creating Knowledge base, Help desk, "
+"Support,  Wiki or Frequently Asked Questions (FAQs) through a WordPress "
+"website. Features: Responsive Design, Clean design, Lightweight and minimal, "
+"Super fast loading, 3 menus, 2 level sub-menus, Navigation in a category and "
+"in a post, Ready for translation (.po / .mo files included), HTML5 & CSS3"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wow-Company"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wow-company.com/"
+msgstr ""

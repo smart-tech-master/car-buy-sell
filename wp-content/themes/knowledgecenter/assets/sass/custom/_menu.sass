@@ -1,0 +1,19 @@
+.menu
+  .navbar-burger
+    width: 50px
+
+  .menu-list
+    display: none
+    @media (min-width: 1024px)
+      display: block
+    &.is-active
+      display: block
+
+  .categories-list
+    +ltr-property("border", $menu-list-border-left, false)
+    li
+      margin-left: $menu-nested-list-margin
+
+  .menu-arrow
+    position: absolute
+    right: 0

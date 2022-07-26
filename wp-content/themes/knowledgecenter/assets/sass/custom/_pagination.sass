@@ -1,0 +1,72 @@
+.nav-links
+  position: relative
+  width: 100%
+  display: flex
+  justify-content: center
+
+
+.nav-links .prev,
+.nav-links .next
+  position: absolute
+
+
+.page-numbers
+  white-space: nowrap
+  color: #363636
+  min-width: 2.5em
+  font-size: 1em
+  margin: 0.25rem
+  text-align: center
+  webkit-appearance: none
+  align-items: center
+  border: 1px solid $border
+  border-radius: $radius
+  box-shadow: none
+  display: inline-flex
+  height: 2.5em
+  justify-content: center
+  line-height: 1.5
+  padding: calc(0.5em - 1px) calc(0.75em - 1px)
+  vertical-align: top
+
+
+.page-numbers:hover
+  border-color: $border-hover
+  color: $text
+
+
+.page-numbers.current
+  background-color: $text
+  border-color: $text
+  color: $white
+
+
+.page-numbers.dots
+  border-color: transparent
+  color: $border
+  pointer-events: none
+
+
+.nav-links .prev
+  left: 0
+
+
+.nav-links .next
+  right: 0
+
+
+.comments-pagination
+  margin-top: 50px
+
+
+.comments-pagination .page-numbers
+  font-size: 0.75rem
+
+@media screen and (max-width: 1024px)
+  .footer .columns
+    margin: 0
+
+@media screen and (max-width: 560px)
+  .nav-links .prev,
+  .nav-links .next
+    display: none

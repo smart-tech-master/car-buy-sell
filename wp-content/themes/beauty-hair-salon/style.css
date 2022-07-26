@@ -1,0 +1,206 @@
+/*
+Theme Name: Beauty Hair Salon
+Theme URI: https://www.ovationthemes.com/wordpress/free-beauty-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Beauty Hair Salon brings a suitable design that works wonderfully with hair salons, beauty salons, hair spas, hairdressers, beauty shops, cosmetics, health and lifestyle, massage, salon, wellness and spa, homemade soaps, organic beauty products shops, nail salons, and more. Designed with a clean interface and secure codes, this theme has the expertise of experienced WP developers and brings you minimal design that focuses on the content itself. This elegant theme is made retina-ready to bring a design that is friendly with all the screen sizes and gives a fantastic experience to the users. This theme doesn’t want you to have any kind of coding skills to create any website. With a professional display of services. This comes along with plenty of personalization options as well as a lot of incredible sections built such as the Banner, Team, Testimonial, etc. a lot of social media options are included in the design to make sure that you are never short of promotional options for your business. Call to Action Buttons (CTA) are also included acting as a guide to users. SEO-friendly codes of this theme are well-optimized to give you a faster page load time. This theme is based on the Bootstrap framework.
+Version: 0.1.1
+Requires PHP: 7.2
+Tested up to: 6.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: beauty-hair-salon
+Template: beauty-salon-spa
+Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, wide-blocks, food-and-drink, portfolio, e-commerce
+
+Beauty Hair Salon WordPress Theme, Copyright 2022 pewilliams
+Beauty Hair Salon is distributed under the terms of the GNU GPL
+
+Beauty Hair Salon WordPress Theme is child theme of Beauty Salon Spa WordPress Theme, Copyright 2021 pewilliams
+Beauty Salon Spa WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+span.entry-author a,.comment-author a,.product_meta a {
+    text-decoration: underline;
+}
+body,.comment-metadata a{
+    color: #9f88a2;
+}
+p.chat_btn a, .page-template-custom-home-page p.chat_btn a, .home-btn a, .box-button a,.gb_nav_menu ul ul,p.chat_btn a, .page-template-custom-home-page p.chat_btn a, .home-btn a, .box-button a, .gb_nav_menu ul ul,#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,button, input[type="button"], input[type="submit"],nav.woocommerce-MyAccount-navigation ul li,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.prev.page-numbers, .next.page-numbers,.page-numbers.current,button.search-submit,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.site-info,.site-footer .search-form .search-submit,.box,a.more-link{
+    background: #e782a0;
+}
+a:hover, a:active,#Category-section .postbox.smallpostimage:hover h3 a,.site-footer .textwidget a{
+    color: #e782a0;
+}
+.copyright,.top_bar,a.added_to_cart.wc-forward:hover, nav.woocommerce-MyAccount-navigation ul li:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,p.chat_btn a:hover,#home-services .box-button a,.owl-nav i{
+    background: #541f5c;
+}
+a,h1, h2, h3, h4, h5, h6,#slider .carousel-caption h2,a.more-link:hover, .home-btn a:hover, .box-button a:hover,.logo h1, .site-title, .site-title a, .logo h1 a,.gb_nav_menu li a,.logo p,#sidebar h3,#Category-section h3 a,#sidebar th,#sidebar td,#sidebar caption,#sidebar select,#sidebar .tagcloud a, .site-footer .tagcloud a,.box span{
+    color: #541f5c;
+}
+.gb_nav_menu ul ul a:hover,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #541f5c !important;
+}
+#sidebar h3,#sidebar select,.wp-block-quote:not(.is-large):not(.is-style-large), blockquote,.wp-block-quote:not(.is-large):not(.is-style-large),a.more-link{
+    border-color: #541f5c;
+}
+.site-info,p.chat_btn a:hover,p.chat_btn a,.site-footer .widget-area a:hover,#home-services .box-button a:hover,#home-services .box-content p{
+    color: #fff;
+}
+
+/* --------- Header --------- */
+
+.top_bar{
+    border: none;
+}
+.wrap_figure {
+    background: #ffeff4;
+}
+.page-template-custom-home-page .wrap_figure {
+    background: #fff;
+    position: static;
+}
+
+/* --------- Slider --------- */
+
+#slider .carousel-caption {
+    right: 15%;
+    left: 55%;
+}
+
+/* --------- Product --------- */
+
+#product .box{
+    background-color: #541f5c;
+    text-align: center;
+    position: relative;
+}
+#product .box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease 0s;
+}
+#product .box:hover img{
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+#product .box .box-content a {
+    color: #fff;
+    background: #e781a1;
+    padding: 15px;
+    opacity: 0;
+    transform: perspective(700px) translateX(-50%) rotateY(40deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.4s ease-out;
+    bottom: auto;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 60%);
+    font-weight: bold;
+}
+#product .box .box-content a.added_to_cart.wc-forward {
+    margin: 0;
+    padding: 15px 24px;
+}
+#product .box:hover .box-content a{
+    opacity: 1;
+    transform: perspective(700px) translateX(-50%) rotateY(0);
+}
+#product .box-content{
+    padding: 0;
+}
+#product .box .icon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    transition: all 0.4s ease-out;
+    background: #e781a1;
+}
+#product .box:hover .icon{ opacity: 1; }
+#product .box .icon li span{
+    color: #fff;
+    background-color: #e781a1;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    transition: all .3s ease 0s;
+    padding: 5px;
+    font-weight: bold;
+}
+#product h3 {
+    font-size: 35px;
+}
+
+/* --------- loader --------- */
+
+.load :first-child{
+    background: #541f5c;
+    animation-delay:-1.5s;
+}
+.load :nth-child(2){
+    background:#e782a0;
+    animation-delay:-1s;
+}
+.load :nth-child(3){
+    background:#541f5c;
+    animation-delay:-0.5s;
+}
+.load :last-child{
+    background:#e782a0;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 800px){
+
+}
