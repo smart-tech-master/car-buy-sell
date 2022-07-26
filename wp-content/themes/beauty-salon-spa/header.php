@@ -33,28 +33,6 @@
 	<?php }?>
 	<div id="page" class="site">
 		<div id="header">
-			<div class="top_bar py-2 text-center text-lg-left">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5 col-md-12 col-sm-12 align-self-center">
-							<?php if( get_theme_mod('beauty_salon_spa_top_text') != '' ){ ?>
-								<p class="mb-0"><?php echo esc_html(get_theme_mod('beauty_salon_spa_top_text','')); ?></p>
-							<?php }?>
-						</div>
-						<div class="col-lg-7 col-md-12 col-sm-12 align-self-center text-md-right text-center">
-							<?php if( get_theme_mod('beauty_salon_spa_email_address') != '' ){ ?>
-								<span class="mr-md-2"><i class="fas fa-envelope-open mr-3"></i><?php echo esc_html(get_theme_mod('beauty_salon_spa_email_address','')); ?></span>
-							<?php }?>
-							<?php if( get_theme_mod('beauty_salon_spa_location_address') != '' ){ ?>
-								<span class="mr-md-2"><i class="fas fa-map-marker-alt mr-3"></i><?php echo esc_html(get_theme_mod('beauty_salon_spa_location_address','')); ?></span>
-							<?php }?>
-							<?php if( get_theme_mod('beauty_salon_spa_call_number') != '' ){ ?>
-								<span><i class="fas fa-phone-volume mr-3"></i><?php echo esc_html(get_theme_mod('beauty_salon_spa_call_number','')); ?></span>
-							<?php }?>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="wrap_figure">
 				<div class="menu_header py-3">
 					<div class="container">
